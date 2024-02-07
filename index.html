@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Bgrmm,</strong>
+                        <p>
+Happy Propose Day Kanna💍
+
+Nee pakkana vunte naaku chala santhosham ga vuntundi. Nee navvu entha stress ni ayina pogottidhi. Nee love ni pondinanduku nen chala lucky fellow in this world. Mana iddaram kalisi ala nadustu vunte it will be like proud moment for me for getting such a great wifey material like u. Manam kalisina moments, love moments, kalisi tinna moments, tirigina moments, chilipi panulu anni naaku chala istam pandi chala cute anipistay😍😍. I always want to share my life with u pandi. I love u babyyy❤️❤️. 
+                        </p>
+						<strong>itlu,</strong>
+						<strong>u r future hubby🥰.</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
